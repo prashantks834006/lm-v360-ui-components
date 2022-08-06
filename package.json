@@ -19,7 +19,8 @@
     "size": "size-limit",
     "analyze": "size-limit --why",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=6cd4f0ae73cc"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -36,7 +37,9 @@
     "trailingComma": "es5"
   },
   "name": "lm-v360-ui-components",
-  "author": "aravinth",
+  "author": {
+    "name": "aravinth"
+  },
   "module": "dist/lm-v360-ui-components.esm.js",
   "size-limit": [
     {
@@ -73,5 +76,7 @@
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@mui/material": "^5.9.3"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "lm-v360-ui-components@0.1.0"
 }
